@@ -1,0 +1,2 @@
+def warning(log):
+    pass

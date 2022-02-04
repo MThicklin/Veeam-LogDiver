@@ -1,0 +1,25 @@
+Main
+Main takes the log file(s), splits it up, then passes them on to the other processes to work on.
+
+Always had issue trying to get while loops to work, but I think it would be good here.
+while True:
+    count += 1
+    logLines = log.readline()
+
+    if not line:
+        break
+
+errors
+Works but I need to figure out how I'm going to use it.
+
+parseXML
+Using https://www.geeksforgeeks.org/xml-parsing-python/ as a guide
+
+topSection
+topSection pulls the data with Regex but it's not taking out the strings.
+
+warning
+Haven't started on warning but it's going to try and filter the different warnings out.
+
+jobs
+working to get the 'Current Jobs' section split into some form I can pass over to the job class.
