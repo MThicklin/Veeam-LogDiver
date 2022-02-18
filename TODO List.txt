@@ -1,13 +1,7 @@
-Main
-Main takes the log file(s), splits it up, then passes them on to the other processes to work on.
+Main.py - to be re-named logdive.py
+Main.py main purpose will be to take the log file(s), split it up, then passes them on to the other processes to work on.  Currently need to figure out why arguements aren't passing correctly.
 
-Always had issue trying to get while loops to work, but I think it would be good here.
-while True:
-    count += 1
-    logLines = log.readline()
-
-    if not line:
-        break
+Also: set up main with paths, one cycling through file in the directory and one for a single file name to pass
 
 errors
 Works but I need to figure out how I'm going to use it.
@@ -18,8 +12,8 @@ Using https://www.geeksforgeeks.org/xml-parsing-python/ as a guide
 topSection
 topSection pulls the data with Regex but it's not taking out the strings.
 
-warning
-Haven't started on warning but it's going to try and filter the different warnings out.
+warnings
+main.py is currently written to pass the log to warnings for processing.  Still need to find a way to clear out the clientupdate warnings.
 
 jobs
-working to get the 'Current Jobs' section split into some form I can pass over to the job class.
+'Current jobs' section is now split up, but I need to find a way to process the job infomation into something useful.

@@ -1,34 +1,28 @@
 #from parseXML import parseXML
-
+import re, regex
 #class job:
-    #job.name = line[1]
-    #job.id = line[2]
-    #job.result = line[3]
-    #job.state = line[4]
+#job.name = line[1]
+#job.id = line[2]
+#job.result = line[3]
+#job.state = line[4]
 
-def jobMaker(log):
-    logLines = log.readlines()
-    for index,line in enumerate(logLines):
-        if line:
-            Name = line.partition("Name:")
-            JobState = line.partition("Job state:")
-            ScheduleOptions = line.partition("Schedule options")
-            Advanced = line.partition("Advanced:")
+jobList = []
 
-            nameList = list(Name[2:3])
-            jobStateList = list(JobState[2:3])
-            scheduleOptionsList = list(ScheduleOptions[2:3])
-            advancedList = list(Advanced[2:3])
-
-            #This function will parse the 'Advanced' section of current jobs.  Need to work on parseXML.
-            #parseXML(advancedList)
-
-            print(nameList, jobStateList, scheduleOptionsList, advancedList)
-            
-            #job.append(list(filter(regexName.match, Name)))
-
-            #print(job)
-
-
-    else:
-            print ("End Of file")
+def jobMaker(jobLines):
+    logLines = jobLines.readlines()
+    for index, line in enumerate(logLines):
+        if re.search(regex.regexBackupJob, line):
+            cleanBackupLine = re.sub(regex.regexLStrip, '', line)
+            print(index, ": ", cleanBackupLine)
+            jobList.append(index, ": ", cleanBackupLine)
+        elif re.search(regex.regexJobState, line):
+            cleanJobStateLine = re.sub(regex.regexLStrip, '', line)
+            print(index, ": ", cleanJobStateLine)
+        elif re.search(regex.regexSchedule, line):
+            cleanScheduleLine = re.sub(regex.regexLStrip, '', line)
+            print(index, ": ", cleanScheduleLine)
+        elif re.search(regex.regexAdvanced, line):
+            cleanAdvancedLine = re.sub(regex.regexLStrip, '', line)
+            print(index, ": ", cleanAdvancedLine)
+print(jobList)
+        
