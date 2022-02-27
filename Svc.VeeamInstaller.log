@@ -1,0 +1,1588 @@
+[09.11.2021 11:56:03.833] <  2172> cli      | LOG: Initializing log file ...
+[09.11.2021 11:56:03.833] <  2172>          | 
+[09.11.2021 11:56:03.833] <  2172>          | =============================================================================
+[09.11.2021 11:56:03.833] <  2172>          | {
+[09.11.2021 11:56:03.833] <  2172>          |   Path to the executable module: C:\Windows\Veeam\Backup\VeeamDeploymentSvc.exe
+[09.11.2021 11:56:03.833] <  2172>          |   Module version: 11.0.0.837
+[09.11.2021 11:56:03.833] <  2172>          |   Build edition: standard
+[09.11.2021 11:56:03.833] <  2172> cli      |   Loading kernel32.dll ...
+[09.11.2021 11:56:03.833] <  2172>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[09.11.2021 11:56:03.833] <  2172>          |   Process Id: 2168
+[09.11.2021 11:56:03.833] <  2172>          | }
+[09.11.2021 11:56:03.833] <  2172>          | Port settings were read from registry. Port: '6160'.
+[09.11.2021 11:56:03.833] <  2172> dpl      | Deployment service was installed from msi.
+[09.11.2021 11:56:03.895] <  3092> dpl      | COM subsystem is initialized.
+[09.11.2021 11:56:03.895] <  3092> dpl      | Deployment service was installed from msi.
+[09.11.2021 11:56:03.895] <  3092> rpc      | Starting RPC listening.
+[09.11.2021 11:56:03.895] <  3092> rpc      |   Specified port for listening: [6160].
+[09.11.2021 11:56:03.911] <  3092> rpc      |   Specified port for listening: [11731].
+[09.11.2021 11:56:03.911] <  3092> rpc      |   FQDN of the computer: [rcir-vbrserver.support2.veeam.local].
+[09.11.2021 11:56:03.911] <  3092> rpc      |   Service SPN: [VeeamDeploymentSvc/rcir-vbrserver.support2.veeam.local]
+[09.11.2021 11:56:03.911] <  3092> rpc      |   RPC authentication records were initialized.
+[09.11.2021 11:56:03.927] <  3092> rpc      | RPC server is initialized.
+[09.11.2021 11:56:03.927] <  3092> dpl      | Updating active RPC ports information.
+[09.11.2021 11:56:03.927] <  3092> dpl      | Loading DeploymentDll...
+[09.11.2021 11:56:03.927] <  3092> dpl      |   Loading library. Path [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll]
+[09.11.2021 11:56:04.083] <  3092> dpl      |     Getting dll version...
+[09.11.2021 11:56:04.083] <  3092> dpl      |     Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] version [11.0.0.837].
+[09.11.2021 11:56:04.083] <  3092> dpl      |   Deleting old libraries
+[09.11.2021 11:56:04.083] <  3092> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 11:56:04.083] <  3092> dpl      |   Deleting old libraries ok.
+[09.11.2021 11:56:04.083] <  3092> dpl      |   Deleting old libraries
+[09.11.2021 11:56:04.083] <  3092> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 11:56:04.083] <  3092> dpl      |   Deleting old libraries ok.
+[09.11.2021 11:56:04.083] <  3092> dpl      | Loading DeploymentDll... ok.
+[09.11.2021 11:58:49.138] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:56.528] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:57.466] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:57.466] <  3208> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 11:58:57.841] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:57.856] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:57.950] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:57.950] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:57.966] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:58.231] <  6788> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 11:58:58.231] <  6788> dpl      |   Getting current dll version...
+[09.11.2021 11:58:58.231] <  6788> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 11:58:58.231] <  6788> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 11:58:58.231] <  6788> dpl      |   Getting current dll version...
+[09.11.2021 11:58:58.231] <  6788> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 11:58:58.263] <  8604> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 11:58:58.263] <  8604> dpl      |   Getting current dll version...
+[09.11.2021 11:58:58.263] <  8604> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 11:58:58.325] <  8604> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 11:58:58.325] <  8604> dpl      |   Getting current dll version...
+[09.11.2021 11:58:58.325] <  8604> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 11:58:58.856] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:58.966] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.013] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.419] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.434] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.434] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.528] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.638] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.669] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.700] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.794] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 11:58:59.794] <  8604> dpl      | >>  |An exception was thrown from thread [8604].
+[09.11.2021 11:58:59.825] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:58:59.903] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:18.794] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:18.966] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:19.747] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:19.872] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:20.153] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:20.216] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 11:59:20.216] <  3212> dpl      | >>  |An exception was thrown from thread [3212].
+[09.11.2021 11:59:40.278] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:40.544] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 11:59:40.606] <  3208> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 11:59:40.606] <  3208> dpl      | >>  |An exception was thrown from thread [3208].
+[09.11.2021 12:00:00.627] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:00.674] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:00.690] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:00.752] <  3208> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:00:00.752] <  3208> dpl      | >>  |An exception was thrown from thread [3208].
+[09.11.2021 12:00:20.770] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:20.833] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:20.880] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:00:20.880] <  3212> dpl      | >>  |An exception was thrown from thread [3212].
+[09.11.2021 12:00:40.892] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:40.954] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:00:41.017] <  8992> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:00:41.017] <  8992> dpl      | >>  |An exception was thrown from thread [8992].
+[09.11.2021 12:01:01.028] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:01:01.075] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:01:01.091] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:01:01.156] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:01:01.156] <  6788> dpl      | >>  |An exception was thrown from thread [6788].
+[09.11.2021 12:08:57.879] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:57.879] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:57.896] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.013] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.014] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.014] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.033] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.079] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.138] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.141] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.145] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.183] <  8856> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:08:58.183] <  8856> dpl      | >>  |An exception was thrown from thread [8856].
+[09.11.2021 12:08:58.222] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:08:58.222] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:00.700] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.427] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.429] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.431] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.434] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.439] <  3208> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:09:07.439] <  3208> dpl      |   Getting current dll version...
+[09.11.2021 12:09:07.439] <  3208> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:09:07.439] <  3208> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:09:07.439] <  3208> dpl      |   Getting current dll version...
+[09.11.2021 12:09:07.439] <  3208> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:09:07.440] <  3208> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:09:07.440] <  3208> dpl      |   Getting current dll version...
+[09.11.2021 12:09:07.440] <  3208> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:09:07.447] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.456] <  8988> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:09:07.456] <  8988> dpl      |   Getting current dll version...
+[09.11.2021 12:09:07.456] <  8988> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:09:07.478] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.483] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.506] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.508] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.516] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.521] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.532] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.548] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.555] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:07.591] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:09:07.591] <  3212> dpl      | >>  |An exception was thrown from thread [3212].
+[09.11.2021 12:09:27.597] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:27.833] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:27.890] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:09:27.890] <  3212> dpl      | >>  |An exception was thrown from thread [3212].
+[09.11.2021 12:09:47.920] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:47.986] <  3212> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:09:48.043] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:09:48.043] <  3212> dpl      | >>  |An exception was thrown from thread [3212].
+[09.11.2021 12:10:08.109] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:08.273] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:08.290] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:08.343] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:10:08.343] <  6788> dpl      | >>  |An exception was thrown from thread [6788].
+[09.11.2021 12:10:28.349] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:28.674] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:28.826] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:10:28.826] <  6788> dpl      | >>  |An exception was thrown from thread [6788].
+[09.11.2021 12:10:48.830] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:48.898] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:10:48.950] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:10:48.950] <  6788> dpl      | >>  |An exception was thrown from thread [6788].
+[09.11.2021 12:11:08.955] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:09.258] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:09.619] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:09.675] <  8856> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:11:09.675] <  8856> dpl      | >>  |An exception was thrown from thread [8856].
+[09.11.2021 12:11:28.937] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:29.104] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:29.105] <  8856> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 12:11:30.019] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:30.121] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:11:30.142] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.641] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.645] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.650] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.680] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.685] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.689] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.695] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.720] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.766] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.768] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.768] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.791] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:12:55.791] <  8604> dpl      | >>  |An exception was thrown from thread [8604].
+[09.11.2021 12:12:55.831] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:55.832] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.301] <  8856> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.467] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.468] <  3208> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.469] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.472] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.477] <  8604> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:12:58.477] <  8604> dpl      |   Getting current dll version...
+[09.11.2021 12:12:58.477] <  8604> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:12:58.478] <  8992> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:12:58.478] <  8992> dpl      |   Getting current dll version...
+[09.11.2021 12:12:58.478] <  8992> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:12:58.478] <  8604> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:12:58.478] <  8604> dpl      |   Getting current dll version...
+[09.11.2021 12:12:58.478] <  8604> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:12:58.486] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.542] <  8992> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:12:58.542] <  8992> dpl      |   Getting current dll version...
+[09.11.2021 12:12:58.542] <  8992> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:12:58.563] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.567] <  6788> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.572] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.597] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.624] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.625] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.636] <  8992> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.638] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:12:58.686] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:12:58.686] <  8988> dpl      | >>  |An exception was thrown from thread [8988].
+[09.11.2021 12:12:58.689] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:18.694] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:18.757] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:18.812] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:13:18.812] <  8988> dpl      | >>  |An exception was thrown from thread [8988].
+[09.11.2021 12:13:38.988] <  8988> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:39.299] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:39.363] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:13:39.363] <  8604> dpl      | >>  |An exception was thrown from thread [8604].
+[09.11.2021 12:13:59.367] <  8988> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:59.429] <  8988> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:59.778] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:13:59.834] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:13:59.834] <  8604> dpl      | >>  |An exception was thrown from thread [8604].
+[09.11.2021 12:14:19.914] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:14:19.977] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:14:20.033] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:14:20.033] <  8988> dpl      | >>  |An exception was thrown from thread [8988].
+[09.11.2021 12:14:40.038] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:14:40.101] <  8988> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:14:40.159] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:14:40.159] <  8988> dpl      | >>  |An exception was thrown from thread [8988].
+[09.11.2021 12:15:00.165] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:15:00.300] <  8604> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:15:00.355] <  8988> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:15:00.410] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{b780b1b2-3e91-4b50-8e8d-706734bf9ea2}'.
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:15:00.410] <  8988> dpl      | >>  |An exception was thrown from thread [8988].
+[09.11.2021 12:56:53.415] <  2236> cli      | LOG: Initializing log file ...
+[09.11.2021 12:56:53.415] <  2236>          | 
+[09.11.2021 12:56:53.415] <  2236>          | =============================================================================
+[09.11.2021 12:56:53.415] <  2236>          | {
+[09.11.2021 12:56:53.415] <  2236>          |   Path to the executable module: C:\Windows\Veeam\Backup\VeeamDeploymentSvc.exe
+[09.11.2021 12:56:53.415] <  2236>          |   Module version: 11.0.0.837
+[09.11.2021 12:56:53.415] <  2236>          |   Build edition: standard
+[09.11.2021 12:56:53.415] <  2236> cli      |   Loading kernel32.dll ...
+[09.11.2021 12:56:53.415] <  2236>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[09.11.2021 12:56:53.415] <  2236>          |   Process Id: 2232
+[09.11.2021 12:56:53.415] <  2236>          | }
+[09.11.2021 12:56:53.415] <  2236>          | Port settings were read from registry. Port: '6160'.
+[09.11.2021 12:56:53.415] <  2236> dpl      | Deployment service was installed from msi.
+[09.11.2021 12:56:53.431] <  2912> dpl      | COM subsystem is initialized.
+[09.11.2021 12:56:53.431] <  2912> dpl      | Deployment service was installed from msi.
+[09.11.2021 12:56:53.431] <  2912> rpc      | Starting RPC listening.
+[09.11.2021 12:56:53.431] <  2912> rpc      |   Specified port for listening: [6160].
+[09.11.2021 12:56:53.431] <  2912> rpc      |   Specified port for listening: [11731].
+[09.11.2021 12:56:53.431] <  2912> rpc      |   FQDN of the computer: [rcir-vbrserver.support2.veeam.local].
+[09.11.2021 12:56:53.431] <  2912> rpc      |   Service SPN: [VeeamDeploymentSvc/rcir-vbrserver.support2.veeam.local]
+[09.11.2021 12:56:53.431] <  2912> rpc      |   RPC authentication records were initialized.
+[09.11.2021 12:56:53.431] <  2912> rpc      | RPC server is initialized.
+[09.11.2021 12:56:53.431] <  2912> dpl      | Updating active RPC ports information.
+[09.11.2021 12:56:53.431] <  2912> dpl      | Loading DeploymentDll...
+[09.11.2021 12:56:53.431] <  2912> dpl      |   Loading library. Path [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll]
+[09.11.2021 12:56:53.603] <  2912> dpl      |     Getting dll version...
+[09.11.2021 12:56:53.603] <  2912> dpl      |     Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] version [11.0.0.837].
+[09.11.2021 12:56:53.603] <  2912> dpl      |   Deleting old libraries
+[09.11.2021 12:56:53.603] <  2912> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 12:56:53.603] <  2912> dpl      |   Deleting old libraries ok.
+[09.11.2021 12:56:53.603] <  2912> dpl      |   Deleting old libraries
+[09.11.2021 12:56:53.603] <  2912> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 12:56:53.603] <  2912> dpl      |   Deleting old libraries ok.
+[09.11.2021 12:56:53.603] <  2912> dpl      | Loading DeploymentDll... ok.
+[09.11.2021 12:59:39.381] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:45.756] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:46.193] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:46.209] <  2968> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 12:59:47.802] <  6520> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:47.881] <  6520> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:47.896] <  6520> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:47.943] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:47.974] <  6520> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:59:47.974] <  6520> dpl      |   Getting current dll version...
+[09.11.2021 12:59:47.974] <  6520> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:59:47.974] <  6520> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:59:47.974] <  6520> dpl      |   Getting current dll version...
+[09.11.2021 12:59:47.974] <  6520> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:59:47.990] <  3376> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:59:47.990] <  3376> dpl      |   Getting current dll version...
+[09.11.2021 12:59:47.990] <  3376> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:59:48.037] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:48.084] <  6520> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 12:59:48.084] <  6520> dpl      |   Getting current dll version...
+[09.11.2021 12:59:48.084] <  6520> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 12:59:48.459] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:48.599] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:48.709] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:48.709] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:48.709] <  7012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.334] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.349] <  6520> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.427] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.646] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.646] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.881] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:49.927] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 12:59:50.006] <  3220> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 12:59:50.006] <  3220> dpl      | >>  |An exception was thrown from thread [3220].
+[09.11.2021 13:00:02.318] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:02.912] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:04.021] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:10.052] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:10.412] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:10.537] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:00:10.537] <  7096> dpl      | >>  |An exception was thrown from thread [7096].
+[09.11.2021 13:00:30.568] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:30.912] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:31.318] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:00:31.318] <  7096> dpl      | >>  |An exception was thrown from thread [7096].
+[09.11.2021 13:00:51.342] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:51.404] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:51.420] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:00:51.467] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:00:51.467] <  7096> dpl      | >>  |An exception was thrown from thread [7096].
+[09.11.2021 13:01:11.481] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:11.544] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:11.606] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:01:11.606] <  7096> dpl      | >>  |An exception was thrown from thread [7096].
+[09.11.2021 13:01:15.574] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.574] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.589] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.620] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.620] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.636] <  7012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.652] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.683] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.699] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.714] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.714] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.745] <  2968> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:01:15.745] <  2968> dpl      | >>  |An exception was thrown from thread [2968].
+[09.11.2021 13:01:15.761] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:15.761] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.281] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.421] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.421] <  2968> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.421] <  2968> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:01:18.421] <  2968> dpl      |   Getting current dll version...
+[09.11.2021 13:01:18.421] <  2968> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:01:18.421] <  5284> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:01:18.421] <  5284> dpl      |   Getting current dll version...
+[09.11.2021 13:01:18.421] <  5284> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:01:18.421] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.421] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.437] <  7096> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:01:18.437] <  7096> dpl      |   Getting current dll version...
+[09.11.2021 13:01:18.437] <  7096> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:01:18.437] <  2968> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:01:18.437] <  2968> dpl      |   Getting current dll version...
+[09.11.2021 13:01:18.437] <  2968> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:01:18.734] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.734] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.749] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.749] <  5284> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.796] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.796] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:18.796] <  3376> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:31.629] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:31.692] <  7012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:31.754] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:01:31.754] <  7096> dpl      | >>  |An exception was thrown from thread [7096].
+[09.11.2021 13:01:51.761] <  7012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:51.824] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:51.839] <  7096> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:01:51.902] <  7012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{dcdad42e-ab15-4f99-a4d1-351d4e700b5b}'.
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:01:51.902] <  7012> dpl      | >>  |An exception was thrown from thread [7012].
+[09.11.2021 13:37:10.545] <  2304> cli      | LOG: Initializing log file ...
+[09.11.2021 13:37:10.545] <  2304>          | 
+[09.11.2021 13:37:10.545] <  2304>          | =============================================================================
+[09.11.2021 13:37:10.545] <  2304>          | {
+[09.11.2021 13:37:10.545] <  2304>          |   Path to the executable module: C:\Windows\Veeam\Backup\VeeamDeploymentSvc.exe
+[09.11.2021 13:37:10.545] <  2304>          |   Module version: 11.0.0.837
+[09.11.2021 13:37:10.545] <  2304>          |   Build edition: standard
+[09.11.2021 13:37:10.545] <  2304> cli      |   Loading kernel32.dll ...
+[09.11.2021 13:37:10.545] <  2304>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[09.11.2021 13:37:10.545] <  2304>          |   Process Id: 2300
+[09.11.2021 13:37:10.545] <  2304>          | }
+[09.11.2021 13:37:10.545] <  2304>          | Port settings were read from registry. Port: '6160'.
+[09.11.2021 13:37:10.545] <  2304> dpl      | Deployment service was installed from msi.
+[09.11.2021 13:37:10.592] <  2972> dpl      | COM subsystem is initialized.
+[09.11.2021 13:37:10.592] <  2972> dpl      | Deployment service was installed from msi.
+[09.11.2021 13:37:10.592] <  2972> rpc      | Starting RPC listening.
+[09.11.2021 13:37:10.592] <  2972> rpc      |   Specified port for listening: [6160].
+[09.11.2021 13:37:10.607] <  2972> rpc      |   Specified port for listening: [11731].
+[09.11.2021 13:37:10.607] <  2972> rpc      |   FQDN of the computer: [rcir-vbrserver.support2.veeam.local].
+[09.11.2021 13:37:10.607] <  2972> rpc      |   Service SPN: [VeeamDeploymentSvc/rcir-vbrserver.support2.veeam.local]
+[09.11.2021 13:37:10.607] <  2972> rpc      |   RPC authentication records were initialized.
+[09.11.2021 13:37:10.623] <  2972> rpc      | RPC server is initialized.
+[09.11.2021 13:37:10.623] <  2972> dpl      | Updating active RPC ports information.
+[09.11.2021 13:37:10.623] <  2972> dpl      | Loading DeploymentDll...
+[09.11.2021 13:37:10.623] <  2972> dpl      |   Loading library. Path [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll]
+[09.11.2021 13:37:10.748] <  2972> dpl      |     Getting dll version...
+[09.11.2021 13:37:10.748] <  2972> dpl      |     Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] version [11.0.0.837].
+[09.11.2021 13:37:10.748] <  2972> dpl      |   Deleting old libraries
+[09.11.2021 13:37:10.748] <  2972> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 13:37:10.748] <  2972> dpl      |   Deleting old libraries ok.
+[09.11.2021 13:37:10.748] <  2972> dpl      |   Deleting old libraries
+[09.11.2021 13:37:10.748] <  2972> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 13:37:10.748] <  2972> dpl      |   Deleting old libraries ok.
+[09.11.2021 13:37:10.748] <  2972> dpl      | Loading DeploymentDll... ok.
+[09.11.2021 13:39:54.186] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:00.603] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:01.087] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:01.103] <  7512> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 13:40:02.009] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:02.587] <  7512> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:02.603] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:02.603] <  7512> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:02.697] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:02.806] <  7512> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:40:02.806] <  7512> dpl      |   Getting current dll version...
+[09.11.2021 13:40:02.806] <  7512> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:40:02.837] <  7512> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:40:02.837] <  7512> dpl      |   Getting current dll version...
+[09.11.2021 13:40:02.837] <  7512> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:40:02.837] <  7512> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:40:02.837] <  7512> dpl      |   Getting current dll version...
+[09.11.2021 13:40:02.837] <  7512> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:40:03.025] <  2156> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:40:03.025] <  2156> dpl      |   Getting current dll version...
+[09.11.2021 13:40:03.025] <  2156> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:40:03.025] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:04.337] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:04.587] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:04.618] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:04.837] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:04.853] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:04.900] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:05.103] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:05.118] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:05.118] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:05.150] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:05.275] <  2156> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:40:05.275] <  2156> dpl      | >>  |An exception was thrown from thread [2156].
+[09.11.2021 13:40:05.712] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:14.790] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:14.962] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:15.884] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:25.337] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:25.744] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:25.806] <  7884> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:40:25.806] <  7884> dpl      | >>  |An exception was thrown from thread [7884].
+[09.11.2021 13:40:45.822] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:46.228] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:40:46.290] <  7880> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:40:46.290] <  7880> dpl      | >>  |An exception was thrown from thread [7880].
+[09.11.2021 13:41:06.305] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:06.352] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:06.367] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:06.430] <  7884> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:41:06.430] <  7884> dpl      | >>  |An exception was thrown from thread [7884].
+[09.11.2021 13:41:26.455] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:26.518] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:26.565] <  7884> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:41:26.565] <  7884> dpl      | >>  |An exception was thrown from thread [7884].
+[09.11.2021 13:41:31.017] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.017] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.032] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.064] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.064] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.064] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.079] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.110] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.126] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.142] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.189] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.220] <  3064> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:41:31.220] <  3064> dpl      | >>  |An exception was thrown from thread [3064].
+[09.11.2021 13:41:31.235] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:31.235] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:33.617] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:33.742] <  3064> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:33.742] <  7884> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:33.742] <  8092> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:33.742] <  3064> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:41:33.742] <  3064> dpl      |   Getting current dll version...
+[09.11.2021 13:41:33.742] <  3064> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:41:33.742] <  8092> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:33.757] <  2156> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:41:33.757] <  2156> dpl      |   Getting current dll version...
+[09.11.2021 13:41:33.757] <  2156> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:41:33.757] <  2156> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:41:33.757] <  2156> dpl      |   Getting current dll version...
+[09.11.2021 13:41:33.757] <  2156> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:41:33.851] <  7884> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 13:41:33.851] <  7884> dpl      |   Getting current dll version...
+[09.11.2021 13:41:33.851] <  7884> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 13:41:34.007] <  2156> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:34.023] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:34.023] <  8104> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:34.039] <  8092> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:34.039] <  8104> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:34.039] <  8104> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:34.054] <  8104> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:46.591] <  8104> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:46.654] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:41:46.701] <  8104> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:41:46.701] <  8104> dpl      | >>  |An exception was thrown from thread [8104].
+[09.11.2021 13:42:06.718] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:42:06.781] <  7880> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:42:06.796] <  8104> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 13:42:06.859] <  8104> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{8caf1fcf-925f-4680-ac6e-7804b819ec58}'.
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 13:42:06.859] <  8104> dpl      | >>  |An exception was thrown from thread [8104].
+[09.11.2021 14:17:21.699] <  2184> cli      | LOG: Initializing log file ...
+[09.11.2021 14:17:21.699] <  2184>          | 
+[09.11.2021 14:17:21.699] <  2184>          | =============================================================================
+[09.11.2021 14:17:21.699] <  2184>          | {
+[09.11.2021 14:17:21.699] <  2184>          |   Path to the executable module: C:\Windows\Veeam\Backup\VeeamDeploymentSvc.exe
+[09.11.2021 14:17:21.699] <  2184>          |   Module version: 11.0.0.837
+[09.11.2021 14:17:21.699] <  2184>          |   Build edition: standard
+[09.11.2021 14:17:21.699] <  2184> cli      |   Loading kernel32.dll ...
+[09.11.2021 14:17:21.699] <  2184>          |   OS version: Microsoft Windows Server 2016 (1607, 64-bit) (10.0.14393)
+[09.11.2021 14:17:21.699] <  2184>          |   Process Id: 2180
+[09.11.2021 14:17:21.699] <  2184>          | }
+[09.11.2021 14:17:21.699] <  2184>          | Port settings were read from registry. Port: '6160'.
+[09.11.2021 14:17:21.699] <  2184> dpl      | Deployment service was installed from msi.
+[09.11.2021 14:17:21.715] <  2988> dpl      | COM subsystem is initialized.
+[09.11.2021 14:17:21.715] <  2988> dpl      | Deployment service was installed from msi.
+[09.11.2021 14:17:21.715] <  2988> rpc      | Starting RPC listening.
+[09.11.2021 14:17:21.715] <  2988> rpc      |   Specified port for listening: [6160].
+[09.11.2021 14:17:21.731] <  2988> rpc      |   Specified port for listening: [11731].
+[09.11.2021 14:17:21.731] <  2988> rpc      |   FQDN of the computer: [rcir-vbrserver.support2.veeam.local].
+[09.11.2021 14:17:21.731] <  2988> rpc      |   Service SPN: [VeeamDeploymentSvc/rcir-vbrserver.support2.veeam.local]
+[09.11.2021 14:17:21.731] <  2988> rpc      |   RPC authentication records were initialized.
+[09.11.2021 14:17:21.762] <  2988> rpc      | RPC server is initialized.
+[09.11.2021 14:17:21.762] <  2988> dpl      | Updating active RPC ports information.
+[09.11.2021 14:17:21.762] <  2988> dpl      | Loading DeploymentDll...
+[09.11.2021 14:17:21.762] <  2988> dpl      |   Loading library. Path [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll]
+[09.11.2021 14:17:21.903] <  2988> dpl      |     Getting dll version...
+[09.11.2021 14:17:21.903] <  2988> dpl      |     Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] version [11.0.0.837].
+[09.11.2021 14:17:21.903] <  2988> dpl      |   Deleting old libraries
+[09.11.2021 14:17:21.903] <  2988> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 14:17:21.903] <  2988> dpl      |   Deleting old libraries ok.
+[09.11.2021 14:17:21.903] <  2988> dpl      |   Deleting old libraries
+[09.11.2021 14:17:21.918] <  2988> dpl      |     Listing old libraries in the directory [C:\Windows\Veeam\Backup]...
+[09.11.2021 14:17:21.918] <  2988> dpl      |   Deleting old libraries ok.
+[09.11.2021 14:17:21.918] <  2988> dpl      | Loading DeploymentDll... ok.
+[09.11.2021 14:20:08.025] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:15.903] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:16.787] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:16.788] <  3048> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:20:16.810] <  7908> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:17.060] <  7908> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:17.065] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:17.066] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:17.149] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:17.159] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:20:17.159] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:20:17.159] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:20:17.286] <  7908> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:20:17.286] <  7908> dpl      |   Getting current dll version...
+[09.11.2021 14:20:17.286] <  7908> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:20:17.569] <  3032> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:20:17.569] <  3032> dpl      |   Getting current dll version...
+[09.11.2021 14:20:17.569] <  3032> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:20:17.665] <  7908> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:20:17.665] <  7908> dpl      |   Getting current dll version...
+[09.11.2021 14:20:17.665] <  7908> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:20:18.346] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:18.347] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:18.521] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:19.345] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:19.425] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:19.446] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:19.453] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:19.954] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:20.316] <  7908> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:20.932] <  8004> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:20:20.932] <  8004> dpl      | >>  |An exception was thrown from thread [8004].
+[09.11.2021 14:20:21.578] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:22.568] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:22.829] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:33.530] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:33.830] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:34.863] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:41.088] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:41.390] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:20:41.476] <  4012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:20:41.476] <  4012> dpl      | >>  |An exception was thrown from thread [4012].
+[09.11.2021 14:21:01.492] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:01.586] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:01.667] <  3032> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:21:01.667] <  3032> dpl      | >>  |An exception was thrown from thread [3032].
+[09.11.2021 14:21:21.674] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:21.735] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:21.750] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:21.802] <  3032> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:21:21.802] <  3032> dpl      | >>  |An exception was thrown from thread [3032].
+[09.11.2021 14:21:41.809] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:41.875] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:41.933] <  3032> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:21:41.933] <  3032> dpl      | >>  |An exception was thrown from thread [3032].
+[09.11.2021 14:21:48.410] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.411] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.417] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.457] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.464] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.469] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.472] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.497] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.558] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.569] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.571] <  7596> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.576] <  7908> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:21:48.576] <  7908> dpl      | >>  |An exception was thrown from thread [7908].
+[09.11.2021 14:21:48.635] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:48.635] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:50.962] <  3032> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.068] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.068] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.069] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.072] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.074] <  4012> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:21:51.074] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:21:51.074] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:21:51.074] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:21:51.074] <  4012> dpl      |   Getting current dll version...
+[09.11.2021 14:21:51.074] <  4012> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:21:51.076] <  4012> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:21:51.076] <  4012> dpl      |   Getting current dll version...
+[09.11.2021 14:21:51.076] <  4012> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:21:51.077] <  3048> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:21:51.077] <  3048> dpl      |   Getting current dll version...
+[09.11.2021 14:21:51.077] <  3048> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:21:51.100] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.119] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.119] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.129] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.141] <  3048> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.147] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:21:51.151] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:22:01.940] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:22:02.003] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:22:02.057] <  4012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:22:02.057] <  4012> dpl      | >>  |An exception was thrown from thread [4012].
+[09.11.2021 14:22:22.062] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:22:22.117] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:22:22.131] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:22:22.183] <  4012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |Object Store 'rcirj-Store1' on storage 'bbgstoreoncevsa.support2.veeam.local' was not found
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |--tr:Failed to perform pipe command 'StoreOnceGetStoreInfo'. Xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'.
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |--tr:Failed to execute external tool command 'StoreOnceGetStoreInfo'. Input xml: '<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>'. Tool name: 'VeeamPluginsHost'. Instance id: '{af9559d9-c9a2-4b29-b204-907b3cec2177}'.
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |--tr:Failed to complete RPC request. Method: [PluginsHost.StoreOnceGetStoreInfo], In XML: [<InputArguments><Storage value="bbgstoreoncevsa.support2.veeam.local" /><StoreKey value="rcirj-Store1" /></InputArguments>]
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 14:22:22.183] <  4012> dpl      | >>  |An exception was thrown from thread [4012].
+[09.11.2021 14:23:12.536] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:12.541] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:23:12.541] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:23:12.541] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:23:12.548] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:12.549] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:23:12.701] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:12.701] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:23:13.213] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:19.425] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:41.766] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:41.766] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:23:41.766] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:23:41.766] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:23:41.766] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:41.766] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:23:41.773] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:41.773] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:23:41.912] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:23:49.161] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:28:25.575] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:28:25.575] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:28:25.575] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:28:25.575] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:28:25.575] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:28:25.575] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:28:25.575] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:28:25.575] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:28:25.715] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:30:05.455] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:30:12.180] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:30:58.076] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:30:58.076] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:30:58.076] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:30:58.076] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:30:58.076] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:30:58.076] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:30:58.092] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:30:58.092] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:05.046] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.046] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:31:05.046] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:31:05.046] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:31:05.061] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.061] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:05.202] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.202] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:05.296] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.296] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:05.327] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.327] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:05.359] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.359] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:31:05.359] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:31:05.359] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:31:05.359] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.359] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:05.452] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.609] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.765] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.827] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:05.952] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:14.289] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:14.289] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:31:14.289] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:31:14.289] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:31:14.289] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:14.289] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:14.304] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:14.304] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:31:14.445] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:18.305] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:31:22.751] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:19.830] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:19.830] <  4012> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:32:19.830] <  4012> dpl      |   Getting current dll version...
+[09.11.2021 14:32:19.830] <  4012> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:32:19.846] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:19.846] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:32:19.986] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:19.986] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:32:20.096] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.096] <  4012> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:32:20.127] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.127] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:32:20.158] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.158] <  8004> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 14:32:20.158] <  8004> dpl      |   Getting current dll version...
+[09.11.2021 14:32:20.158] <  8004> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 14:32:20.158] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.158] <  8004> dpl      | RPC: Getting platform of the deployment service.
+[09.11.2021 14:32:20.252] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.440] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.627] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.643] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:20.768] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:32:34.079] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:33:23.534] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:33:25.883] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:33:30.457] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:33:30.598] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:34:12.563] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:34:13.625] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:34:13.641] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:34:26.628] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:34:26.941] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:34:26.956] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:35:21.537] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:35:21.599] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:35:21.615] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:35:21.724] <  4012> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 14:35:21.818] <  8004> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:22:59.652] <   356> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:23:02.596] <  3720> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:23:02.620] <  3720> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:23:02.621] <  3720> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:23:21.376] <  9956> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:23:52.847] <   356> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:36:39.242] <   356> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 15:36:39.245] <  9956> dpl      | RPC: Getting version  of the deployment dll.
+[09.11.2021 15:36:39.245] <  9956> dpl      |   Getting current dll version...
+[09.11.2021 15:36:39.245] <  9956> dpl      |   Deployment dll [C:\Windows\Veeam\Backup\VeeamDeploymentDll.dll] cached version [11.0.0.837].
+[09.11.2021 16:39:29.827] <  9028> dpl      | RPC: Getting version of the deployment service.
+[09.11.2021 16:39:29.881] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Backup\Svc.VeeamBackup
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Backup\Svc.VeeamBackup" /></InputArguments>]
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.881] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.911] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.911] <  8792> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:29.911] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Backup\SanRescan
+[09.11.2021 16:39:29.911] <  8792> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:29.911] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Backup\SanRescan" /></InputArguments>]
+[09.11.2021 16:39:29.911] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.912] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.912] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.926] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.926] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.929] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.929] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.931] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.931] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.933] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.933] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.936] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.936] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.939] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.939] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.942] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.942] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.945] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.945] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.947] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.947] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.949] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\.NET v4.5 Classic\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.949] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.959] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Administrator\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Administrator\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.959] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.961] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Administrator\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Administrator\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.961] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.965] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\All Users\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\All Users\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.965] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.967] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\All Users\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\All Users\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.967] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.970] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\All Users\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\All Users\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.970] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.972] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\All Users\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\All Users\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.972] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.974] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\All Users\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\All Users\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.974] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.977] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.977] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.980] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.980] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.984] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.984] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.986] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.986] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:29.989] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\dchuraev\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.989] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.992] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.992] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.994] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.994] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.997] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.997] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:29.999] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:29.999] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.001] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.001] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.004] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default User\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default User\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.004] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.007] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default User\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default User\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.007] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.010] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default User\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default User\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.010] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.012] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default User\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default User\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.012] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.017] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Default User\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Default User\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.017] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.020] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Public\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Public\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.020] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.022] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Public\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Public\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.022] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.024] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Public\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Public\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.024] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.026] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Public\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Public\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.026] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.028] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\Public\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\Public\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.028] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.032] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.032] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.034] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |Failed to open fs item \\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.034] <  9596> dpl      | >>  |An exception was thrown from thread [9596].
+[09.11.2021 16:39:30.036] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.036] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.038] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\rcirj\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.038] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:30.041] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\rcirj\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\rcirj\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.041] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:30.044] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.044] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.046] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.046] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.048] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.048] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.052] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.052] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.054] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\SQLTELEMETRY$VEEAMSQL2016\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.054] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.057] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.057] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:30.059] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.059] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:30.061] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.061] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.063] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.063] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.065] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\svc-it-spm\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.065] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.068] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\test1\AppData\Local\Veeam\Backup\Utils
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\test1\AppData\Local\Veeam\Backup\Utils" /></InputArguments>]
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.068] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:30.070] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |Failed to open fs item \\?\C:\Users\test1\AppData\Local\Veeam\Backup\Console
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\test1\AppData\Local\Veeam\Backup\Console" /></InputArguments>]
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.070] <  8792> dpl      | >>  |An exception was thrown from thread [8792].
+[09.11.2021 16:39:30.072] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\test1\AppData\Local\Veeam\Backup\SQLExplorer
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\test1\AppData\Local\Veeam\Backup\SQLExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.072] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.074] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\test1\AppData\Local\Veeam\Backup\OracleExplorer
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\test1\AppData\Local\Veeam\Backup\OracleExplorer" /></InputArguments>]
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.074] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:30.076] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:30.076] <  9028> dpl      | >>  |The system cannot find the path specified.
+[09.11.2021 16:39:30.076] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\Users\test1\AppData\Local\Veeam\Backup
+[09.11.2021 16:39:30.076] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+[09.11.2021 16:39:30.077] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\Users\test1\AppData\Local\Veeam\Backup" /></InputArguments>]
+[09.11.2021 16:39:30.077] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:30.077] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:30.077] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.181] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\Backup_Job_HomeW
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\Backup_Job_HomeW" /></InputArguments>]
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.181] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.184] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\Svc.VeeamBackup
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\Svc.VeeamBackup" /></InputArguments>]
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.184] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.186] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\Utils
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\Utils" /></InputArguments>]
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.186] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.188] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\SanRescan
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\SanRescan" /></InputArguments>]
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.188] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.190] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\ResourceScan
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\ResourceScan" /></InputArguments>]
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.190] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.192] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\Satellites
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\Satellites" /></InputArguments>]
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.192] <  9028> dpl      | >>  |An exception was thrown from thread [9028].
+[09.11.2021 16:39:38.195] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |The system cannot find the file specified.
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |Failed to open fs item \\?\C:\ProgramData\Veeam\Setup\RegistryOptions
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |--tr:Failed to complete RPC request. Method: [FcGetItemInfo], In XML: [<InputArguments><ItemPath value="\\?\C:\ProgramData\Veeam\Setup\RegistryOptions" /></InputArguments>]
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |--tr:Failed to invoke RPC request
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |--tr:Failed to call DoRpc. CmdName: [DoSerialRpc] inParam: [<InputArguments/>].
+[09.11.2021 16:39:38.195] <  9028> dpl      | >>  |An exception was thrown from thread [9028].

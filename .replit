@@ -1,0 +1,2 @@
+run="python logdiver.py crawl warn"
+language="python3"

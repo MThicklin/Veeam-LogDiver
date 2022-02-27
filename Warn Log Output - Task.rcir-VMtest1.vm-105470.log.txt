@@ -1,0 +1,9 @@
+432: [09.11.2021 15:36:39] <26> Info                   [AP] (8ccb) output: toolsInstallManager.lastInstallError = "0"
+828: [09.11.2021 15:37:02] <27> Info         toolsInstallManager.lastInstallError = "0"
+2095: [09.11.2021 15:59:44] <11> Info                   [AP] (8d3d) output: toolsInstallManager.lastInstallError = "0"
+2491: [09.11.2021 16:00:06] <28> Info         toolsInstallManager.lastInstallError = "0"
+3759: [09.11.2021 16:17:02] <13> Info                   [AP] (809a) output: toolsInstallManager.lastInstallError = "0"
+4155: [09.11.2021 16:17:24] <30> Info         toolsInstallManager.lastInstallError = "0"
+5425: [09.11.2021 16:35:57] <29> Info                   [AP] (8af2) output: toolsInstallManager.lastInstallError = "0"
+5821: [09.11.2021 16:36:20] <30> Info         toolsInstallManager.lastInstallError = "0"
+Item Count: 8
