@@ -1,2 +1,2 @@
-run="python logdiver.py crawl warn"
+run="python logdiver.py clean"
 language="python3"

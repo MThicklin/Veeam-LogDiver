@@ -1,6 +1,6 @@
 import os, sys
 from warning import warning
-from topsection import topSection
+#from topsection import topSection
 from vmc import vmcCrawl
 
 searchType = ""
@@ -72,12 +72,12 @@ def writer(logFile, searchType):
         log.close()
 
 
-def section(logFile):
-    for index, file in enumerate(logFile):
-        with open(os.path.join(os.getcwd(), str(logFile[index])),
-                  "r") as topSec:
-            topSection(file, topSec)
-        topSec.close()
+#def section(logFile):
+#    for index, file in enumerate(logFile):
+#        with open(os.path.join(os.getcwd(), str(logFile[index])),
+#                  "r") as topSec:
+#            topSection(file, topSec)
+#        topSec.close()
 
 
 #section(logFile)

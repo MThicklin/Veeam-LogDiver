@@ -1,7 +1,8 @@
-import re, regex
+import os, re, regex
 
 def warning(logName, logContent, type):
     ReGex = regex.regexWarn
+    itemCount = 0
     if type == "info":
         ReGex = regex.regexInfo
         fileName = "Info Log Output - " + str(logName) + ".txt"
@@ -14,7 +15,6 @@ def warning(logName, logContent, type):
         print("Defaulting to Warning and Error entries for ", fileName, "...")
 
     with open(str(fileName), "w") as output:
-        itemCount = 0
         for index, line in enumerate(logContent):
             x = re.search(ReGex, line)
             if x:
@@ -23,4 +23,7 @@ def warning(logName, logContent, type):
             else:
                 continue
         output.write("Item Count: {}".format(itemCount))
+        if itemCount == 0:
+            output.close()
+            os.rename(str(fileName), "No Good - {}".format(str(logName)))
     output.close()

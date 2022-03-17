@@ -1,67 +1,180 @@
+66: [09.11.2021 11:58:59.794] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+81: [09.11.2021 11:59:20.216] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+91: [09.11.2021 11:59:40.606] <  3208> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+102: [09.11.2021 12:00:00.752] <  3208> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+112: [09.11.2021 12:00:20.880] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+122: [09.11.2021 12:00:41.017] <  8992> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+133: [09.11.2021 12:01:01.156] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+152: [09.11.2021 12:08:58.183] <  8856> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+189: [09.11.2021 12:09:07.591] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+199: [09.11.2021 12:09:27.890] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+209: [09.11.2021 12:09:48.043] <  3212> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+220: [09.11.2021 12:10:08.343] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+230: [09.11.2021 12:10:28.826] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+240: [09.11.2021 12:10:48.950] <  6788> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+251: [09.11.2021 12:11:09.675] <  8856> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+276: [09.11.2021 12:12:55.791] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+312: [09.11.2021 12:12:58.686] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+323: [09.11.2021 12:13:18.812] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+333: [09.11.2021 12:13:39.363] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+344: [09.11.2021 12:13:59.834] <  8604> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+354: [09.11.2021 12:14:20.033] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+364: [09.11.2021 12:14:40.159] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+375: [09.11.2021 12:15:00.410] <  8988> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+450: [09.11.2021 12:59:50.006] <  3220> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+463: [09.11.2021 13:00:10.537] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+473: [09.11.2021 13:00:31.318] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+484: [09.11.2021 13:00:51.467] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+494: [09.11.2021 13:01:11.606] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+513: [09.11.2021 13:01:15.745] <  2968> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+549: [09.11.2021 13:01:31.754] <  7096> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+560: [09.11.2021 13:01:51.902] <  7012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+634: [09.11.2021 13:40:05.275] <  2156> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+648: [09.11.2021 13:40:25.806] <  7884> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+658: [09.11.2021 13:40:46.290] <  7880> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+669: [09.11.2021 13:41:06.430] <  7884> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+679: [09.11.2021 13:41:26.565] <  7884> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+698: [09.11.2021 13:41:31.220] <  3064> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+734: [09.11.2021 13:41:46.701] <  8104> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+745: [09.11.2021 13:42:06.859] <  8104> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+817: [09.11.2021 14:20:20.932] <  8004> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+833: [09.11.2021 14:20:41.476] <  4012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+843: [09.11.2021 14:21:01.667] <  3032> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+854: [09.11.2021 14:21:21.802] <  3032> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+864: [09.11.2021 14:21:41.933] <  3032> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+883: [09.11.2021 14:21:48.576] <  7908> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+919: [09.11.2021 14:22:02.057] <  4012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+930: [09.11.2021 14:22:22.183] <  4012> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
+1061: [09.11.2021 16:39:29.881] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1064: [09.11.2021 16:39:29.881] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1069: [09.11.2021 16:39:29.911] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1072: [09.11.2021 16:39:29.911] <  8792> dpl      | >>  |--tr:Error code: 0x00000002
+1077: [09.11.2021 16:39:29.926] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1080: [09.11.2021 16:39:29.926] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1085: [09.11.2021 16:39:29.929] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1088: [09.11.2021 16:39:29.929] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1093: [09.11.2021 16:39:29.931] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1096: [09.11.2021 16:39:29.931] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1101: [09.11.2021 16:39:29.933] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1104: [09.11.2021 16:39:29.933] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1109: [09.11.2021 16:39:29.936] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1112: [09.11.2021 16:39:29.936] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1117: [09.11.2021 16:39:29.939] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1120: [09.11.2021 16:39:29.939] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1125: [09.11.2021 16:39:29.942] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1128: [09.11.2021 16:39:29.942] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1133: [09.11.2021 16:39:29.945] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1136: [09.11.2021 16:39:29.945] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1141: [09.11.2021 16:39:29.947] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1144: [09.11.2021 16:39:29.947] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1149: [09.11.2021 16:39:29.949] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1152: [09.11.2021 16:39:29.949] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1157: [09.11.2021 16:39:29.959] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1160: [09.11.2021 16:39:29.959] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1165: [09.11.2021 16:39:29.961] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1168: [09.11.2021 16:39:29.961] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1173: [09.11.2021 16:39:29.965] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1176: [09.11.2021 16:39:29.965] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1181: [09.11.2021 16:39:29.967] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1184: [09.11.2021 16:39:29.967] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1189: [09.11.2021 16:39:29.970] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1192: [09.11.2021 16:39:29.970] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1197: [09.11.2021 16:39:29.972] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1200: [09.11.2021 16:39:29.972] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1205: [09.11.2021 16:39:29.974] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1208: [09.11.2021 16:39:29.974] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1213: [09.11.2021 16:39:29.977] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1216: [09.11.2021 16:39:29.977] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1221: [09.11.2021 16:39:29.980] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1224: [09.11.2021 16:39:29.980] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1229: [09.11.2021 16:39:29.984] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1232: [09.11.2021 16:39:29.984] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1237: [09.11.2021 16:39:29.986] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1240: [09.11.2021 16:39:29.986] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1245: [09.11.2021 16:39:29.989] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1248: [09.11.2021 16:39:29.989] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1253: [09.11.2021 16:39:29.992] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1256: [09.11.2021 16:39:29.992] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1261: [09.11.2021 16:39:29.994] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1264: [09.11.2021 16:39:29.994] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1269: [09.11.2021 16:39:29.997] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1272: [09.11.2021 16:39:29.997] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1277: [09.11.2021 16:39:29.999] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1280: [09.11.2021 16:39:29.999] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1285: [09.11.2021 16:39:30.001] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1288: [09.11.2021 16:39:30.001] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1293: [09.11.2021 16:39:30.004] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1296: [09.11.2021 16:39:30.004] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1301: [09.11.2021 16:39:30.007] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1304: [09.11.2021 16:39:30.007] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1309: [09.11.2021 16:39:30.010] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1312: [09.11.2021 16:39:30.010] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1317: [09.11.2021 16:39:30.012] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1320: [09.11.2021 16:39:30.012] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1325: [09.11.2021 16:39:30.017] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1328: [09.11.2021 16:39:30.017] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1333: [09.11.2021 16:39:30.020] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1336: [09.11.2021 16:39:30.020] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1341: [09.11.2021 16:39:30.022] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1344: [09.11.2021 16:39:30.022] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1349: [09.11.2021 16:39:30.024] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1352: [09.11.2021 16:39:30.024] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1357: [09.11.2021 16:39:30.026] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1360: [09.11.2021 16:39:30.026] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1365: [09.11.2021 16:39:30.028] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1368: [09.11.2021 16:39:30.028] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1373: [09.11.2021 16:39:30.032] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1376: [09.11.2021 16:39:30.032] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1381: [09.11.2021 16:39:30.034] <  9596> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1384: [09.11.2021 16:39:30.034] <  9596> dpl      | >>  |--tr:Error code: 0x00000003
+1389: [09.11.2021 16:39:30.036] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1392: [09.11.2021 16:39:30.036] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1397: [09.11.2021 16:39:30.038] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1400: [09.11.2021 16:39:30.038] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1405: [09.11.2021 16:39:30.041] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1408: [09.11.2021 16:39:30.041] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1413: [09.11.2021 16:39:30.044] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1416: [09.11.2021 16:39:30.044] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1421: [09.11.2021 16:39:30.046] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1424: [09.11.2021 16:39:30.046] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1429: [09.11.2021 16:39:30.048] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1432: [09.11.2021 16:39:30.048] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1437: [09.11.2021 16:39:30.052] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1440: [09.11.2021 16:39:30.052] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1445: [09.11.2021 16:39:30.054] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1448: [09.11.2021 16:39:30.054] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1453: [09.11.2021 16:39:30.057] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1456: [09.11.2021 16:39:30.057] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1461: [09.11.2021 16:39:30.059] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1464: [09.11.2021 16:39:30.059] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1469: [09.11.2021 16:39:30.061] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1472: [09.11.2021 16:39:30.061] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1477: [09.11.2021 16:39:30.063] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1480: [09.11.2021 16:39:30.063] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1485: [09.11.2021 16:39:30.065] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1488: [09.11.2021 16:39:30.065] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1493: [09.11.2021 16:39:30.068] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1496: [09.11.2021 16:39:30.068] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1501: [09.11.2021 16:39:30.070] <  8792> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1504: [09.11.2021 16:39:30.070] <  8792> dpl      | >>  |--tr:Error code: 0x00000003
+1509: [09.11.2021 16:39:30.072] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1512: [09.11.2021 16:39:30.072] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1517: [09.11.2021 16:39:30.074] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1520: [09.11.2021 16:39:30.074] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1525: [09.11.2021 16:39:30.076] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1528: [09.11.2021 16:39:30.076] <  9028> dpl      | >>  |--tr:Error code: 0x00000003
+1533: [09.11.2021 16:39:38.181] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1536: [09.11.2021 16:39:38.181] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1541: [09.11.2021 16:39:38.184] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1544: [09.11.2021 16:39:38.184] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1549: [09.11.2021 16:39:38.186] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1552: [09.11.2021 16:39:38.186] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1557: [09.11.2021 16:39:38.188] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1560: [09.11.2021 16:39:38.188] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1565: [09.11.2021 16:39:38.190] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1568: [09.11.2021 16:39:38.190] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1573: [09.11.2021 16:39:38.192] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1576: [09.11.2021 16:39:38.192] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
+1581: [09.11.2021 16:39:38.195] <  9028> dpl      | ERR |Failed to execute DoRpcWithBinary. Command name: 'DoSerialRpc'.
 1584: [09.11.2021 16:39:38.195] <  9028> dpl      | >>  |--tr:Error code: 0x00000002
-Item Count: 66
+Item Count: 179

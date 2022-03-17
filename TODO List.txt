@@ -17,3 +17,6 @@ main.py is currently written to pass the log to warnings for processing.  Still 
 
 jobs
 'Current jobs' section is now split up, but I need to find a way to process the job infomation into something useful.
+
+vmc
+Have the printing down pretty good need to read the lines and seperate what's xml, what can be a dictionary.
