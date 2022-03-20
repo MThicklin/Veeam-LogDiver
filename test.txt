@@ -1,0 +1,3145 @@
+Printing Module info...
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [28.01.2022 18:58:11] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 18778458
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [28.01.2022 18:58:11] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [28.01.2022 18:58:11] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 6
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [28.01.2022 18:58:11] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 4
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [28.01.2022 18:58:11] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [29.01.2022 18:58:25] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 18778458
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [29.01.2022 18:58:25] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [29.01.2022 18:58:25] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 6
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [29.01.2022 18:58:25] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 4
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [29.01.2022 18:58:25] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [30.01.2022 18:58:26] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 18778458
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [30.01.2022 18:58:26] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [30.01.2022 18:58:26] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 6
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [30.01.2022 18:58:26] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 4
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [30.01.2022 18:58:26] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [31.01.2022 18:58:41] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 18778458
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [31.01.2022 18:58:41] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [31.01.2022 18:58:41] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [31.01.2022 18:58:41] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.2 build-17867351
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [31.01.2022 18:58:41] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [01.02.2022 18:59:03] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [01.02.2022 18:59:03] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [01.02.2022 18:59:03] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [01.02.2022 18:59:03] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [01.02.2022 18:59:03] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [02.02.2022 18:59:12] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [02.02.2022 18:59:12] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [02.02.2022 18:59:12] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [02.02.2022 18:59:12] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [02.02.2022 18:59:12] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [03.02.2022 18:59:12] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [03.02.2022 18:59:12] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [03.02.2022 18:59:12] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [03.02.2022 18:59:12] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [03.02.2022 18:59:12] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [04.02.2022 18:59:13] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [04.02.2022 18:59:13] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [04.02.2022 18:59:13] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [04.02.2022 18:59:13] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [04.02.2022 18:59:13] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [05.02.2022 18:59:17] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [05.02.2022 18:59:17] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [05.02.2022 18:59:17] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [05.02.2022 18:59:17] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [05.02.2022 18:59:17] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [06.02.2022 18:59:21] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [06.02.2022 18:59:21] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [06.02.2022 18:59:21] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [06.02.2022 18:59:21] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [06.02.2022 18:59:21] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [07.02.2022 18:59:44] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [07.02.2022 18:59:44] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [07.02.2022 18:59:44] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [07.02.2022 18:59:44] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [07.02.2022 18:59:44] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [08.02.2022 18:59:52] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [08.02.2022 18:59:52] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [08.02.2022 18:59:52] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [08.02.2022 18:59:52] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [08.02.2022 18:59:52] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [09.02.2022 18:59:59] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [09.02.2022 18:59:59] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [09.02.2022 18:59:59] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [09.02.2022 18:59:59] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [09.02.2022 18:59:59] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >
+		Section:  =VEEAM INFRASTRUCTURE COUNT>
+		Section:  =VMWARE INFRASTRUCTURE COUN>
+		Section:  =HYPER-V INFRASTRUCTURE COU>
+		Section:  =INFRASTRUCTURE HOSTS DETAI>
+			Host ID:  [09.02.2022 19:15:15] <01> Info         HostID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   Type: VC
+			Host ID:   ParentID: 00000000-0000-0000-0000-000000000000
+			Host ID:   IsAvailable: True
+			Host ID:   VCVersion: VMware vCenter Server 7.0.3 
+			Host ID:   VCBuild: 19234570
+			Host ID:   CPUSocketTotalCount: 1
+			Host ID:   RAMTotalSize: null
+			Host ID:   StorageTotalSize: 0
+			Host ID:   UsedStorage: 0
+			Host ID:   DatacentersCount: 1
+			Host ID:   ClustersCount: 0
+			Host ID:   HostsCount: 3
+			Host ID:   VMsCount: 12
+			Host ID:   DatastoresClustersCount: 0
+			Host ID:   DatastoresCount: 5
+			Host ID:   CdpFilterInstalled: False
+
+			Host ID:  [09.02.2022 19:15:15] <01> Info         HostID: 924deb5b-ee43-4573-8556-4ce450ffc103
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 33995882496
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 2
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [09.02.2022 19:15:15] <01> Info         HostID: 782cac9e-2197-42c2-96e8-5ed6aceef1cf
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 205660356608
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [09.02.2022 19:15:15] <01> Info         HostID: e40779b8-220b-4832-9484-8df999b34521
+			Host ID:   Type: ESXi
+			Host ID:   ParentID: c3114cf1-7ec3-4bc3-bfe3-ec0923e591ef
+			Host ID:   IsAvailable: True
+			Host ID:   HostInfo: VMware ESXi 7.0.3 build-19193900
+			Host ID:   IsStandalone: False
+			Host ID:   CPUSocketCount: 2
+			Host ID:   RAMTotalSize: 102715359232
+			Host ID:   StorageTotalSize: 0
+			Host ID:   VMsCount: 5
+			Host ID:   DatastoresCount: 3
+			Host ID:   Vendors: [ { Protocol: FC
+			Host ID:   Count: 0
+			Host ID:   Names: [  ] }
+			Host ID:   { Protocol: iSCSI
+			Host ID:   Count: 1
+			Host ID:   Names: [ HPE ] } ]
+			Host ID:   DatastoreTypes: { Vmfs3: False
+			Host ID:   Vmfs5: False
+			Host ID:   Vmfs6: True
+			Host ID:   Nfs: False
+			Host ID:   Nfs41: False
+			Host ID:   Cifs: False
+			Host ID:   Vfat: False
+			Host ID:   Vsan: False
+			Host ID:   Vffs: False
+			Host ID:   Vvol: False
+			Host ID:   Other: False
+			Host ID:   Unknown: False
+			Host ID:   Pmem: False }
+			Host ID:   CdpFilter: { IsInstalled: False
+			Host ID:   CdpFilterVersion: null }
+
+			Host ID:  [09.02.2022 19:15:15] <01> Info         HostID: 6745a759-2205-4cd2-b172-8ec8f7e60ef8
+			Host ID:   Type: Local
+			Host ID:   ParentID: null
+			Host ID:   IsAvailable: True
+			Host ID:   OSversion: WinServer2019_1809
+			Host ID:   CoresCount: 4
+			Host ID:   CPUCount: null
+			Host ID:   RAMTotalSize: 25733611520
+			Host ID:   IsCloudConnectServiceInstalled: False
+			Host ID:   IsCloudGatewayServiceInstalled: False
+			Host ID:   IsTransportServiceInstalled: True
+			Host ID:   IsInstallerServiceInstalled: True
+			Host ID:   IsMountServiceInstalled: True
+			Host ID:   IsNFSServiceInstalled: True
+			Host ID:   IsWANAccServiceInstalled: False
+			Host ID:   IsTapeServiceInstalled: False
+
+		Section:  CURRENT PROXIES
+		Section:  >
+		Section:  PROXY TYPE COUNTS
+		Section:  >
+		Section:  CURRENT JOBS INFO
+		Section:  >
+		Section:  CLOUD CONNECT
+		Section:  >
+		Section:  =VCLOUD DIRECTOR INFRASTRUC>
+		Section:  VIRTUAL LABS INFO
+		Section:  >
+		Section:  APPLICATION GROUPS INFO
+		Section:  >
+		Section:  JOB TYPE COUNTS
+		Section:  >
+		Section:  JOB SESSION COUNTS
+		Section:  =>
+		Section:  BACKUP AND REPLICA COUNTS
+		Section:  >
+		Section:  BACKUP COPY JOBS
+		Section:  =>
+		Section:  CURRENT REPOSITORIES
+		Section:  =>
+		Section:  REPOSITORY TYPE COUNTS
+		Section:  =>
+		Section:  FEATURE USAGE
+		Section:  >
+		Section:  =TAPE INFRASTRUCTURE COUNTS>
+		Section:  ), match='
+		Section:  =TAPE INFRASTRUCTURE CONFIG>
+		Section:  TRANSPORT MODES
+		Section:  >
+		Section:  RESTORE COUNTS
+		Section:  =>
+		Section:  =SOURCE STORAGE INFRASTRUCT>
+		Section:  ADDED STORAGE SYSTEMS
+		Section:  >
+		Section:  VEEAM REGISTRY SETTINGS
+		Section:  >
+		Section:  AZURE COMPUTE ACCOUNTS
+		Section:  =>
+		Section:  PROTECTION GROUP COUNTS
+		Section:  >
+		Section:  PROTECTION GROUP USAGE
+		Section:  =>
+		Section:  =PROTECTION GROUP CONFIGURA>
+		Section:  =WAN ACCELERATOR CONFIGURAT>
+		Section:  NAS INFRASTRUCTURE
+		Section:  =>
+		Section:  PLATFORM SERVICES
+		Section:  >
+		Section:  PLATFORM PROXIES
+		Section:  =>
+		Section:  PLATFORM COUNTS
+		Section:  >
+		Section:  JOB VIEWS
+		Section:  >
+		Section:  =VEEAM PROTECTED OBJECTS CO>
+		Section:  =>
+MachineName: [VEEAM], OS: [Microsoft Windows Server 2019 Standard (10.0.17763)], CPU: [8]
+
+	Module:  Veeam.Backup.Manager.exe
+	Module:  Veeam.Backup.AgentProvider.dll
+	Module:  Veeam.Backup.AmazonApi.dll
+	Module:  Veeam.Backup.CloudService.exe
+	Module:  Veeam.Backup.Common.dll
+	Module:  Veeam.Backup.Configuration.dll
+	Module:  Veeam.Backup.Core.dll
+	Module:  Veeam.Backup.DBAccessor.dll
+	Module:  Veeam.Backup.DBCreator.dll
+	Module:  Veeam.Backup.DBManager.dll
+	Module:  Veeam.Backup.LicenseLib.dll
+	Module:  Veeam.Backup.Model.dll
+	Module:  Veeam.Backup.PowerShell.dll
+	Module:  Veeam.Backup.ProxyProvider.dll
+	Module:  Veeam.Backup.RestAPIService.exe
+	Module:  Veeam.Backup.Satellite.exe
+	Module:  Veeam.Backup.ServiceLib.dll
+	Module:  Veeam.Backup.SureBackup.dll
+	Module:  Veeam.Backup.UI.dll
+	Module:  Veeam.Backup.VcdLib.dll
+	Module:  Veeam.Backup.ViSoap.dll
+		Section:  =VEEAM SERVER CONFIGURATION>
+		Section:  LICENSE INFORMATION
+		Section:  >

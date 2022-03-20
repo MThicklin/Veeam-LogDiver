@@ -33,7 +33,7 @@ def cleaner():
     print("Cleaning all logdiver files...")
     for file in os.listdir(os.getcwd()):
         if file.startswith("Warn Log Output - ") or file.startswith(
-                "Info Log Output - ") or file.startswith("Top Section for ") or file.startswith("test"):
+                "Info Log Output - ") or file.startswith("Top Section for ") or file.startswith("test") or file.startswith("No Good - "):
             os.remove(file)
             filesCleaned += 1
     return print("All Clean! Files cleaned: ", filesCleaned)
@@ -45,23 +45,26 @@ def crawler():
             logFile.append(file)
     return logFile
 
-
-if sys.argv[1] == "clean":
-    cleaner()
-    exit()
+try:
+    if sys.argv[1] == "clean":
+        cleaner()
+        exit()
     
-if sys.argv[1] == "vmc":
-    sysCrawl()
-    exit()
-
-elif sys.argv[1] == "crawl":
-    searchType = sys.argv[2]
-    crawler()
-else:
-    logFileInput = sys.argv[1]
-    logFile.clear()
-    logFile.append(logFileInput)
-    logFileAskedskip = False
+    if sys.argv[1] == "vmc":
+        sysCrawl()
+        exit()
+    elif sys.argv[1] == "crawl":
+        searchType = sys.argv[2]
+        crawler()
+    else:
+        logFileInput = sys.argv[1]
+        logFile.clear()
+        logFile.append(logFileInput)
+        logFileAskedskip = False
+except IndexError:
+    if sys.argv[1] == "crawl" and sys.argv[2] == None:
+        searchType = "Warn"
+        crawler() 
 
 
 def writer(logFile, searchType):
