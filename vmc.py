@@ -29,8 +29,34 @@ def vmcCrawl(vmcLog):
         if hostLine:
             hostId = re.split(',', line)
             for host in hostId:
-                print("\t\t\tHost ID: ",host)
-        #print("\t\tPrint line: ",line)
+                print("\t",host)
+        proxyLine = re.search('ProxyID', line)
+        if proxyLine:
+            proxyID = re.split(',',line)
+            for proxy in proxyID:
+                print("\t\t",proxy)
+        proxyTypes = re.search('Proxy types: ', line)
+        if proxyTypes:
+            proxyItems = re.split(',', line)
+            for type in proxyItems:
+                print("\t\t",type)
+        platformLine = re.search('PlatformId:', line)
+        if platformLine:
+            platformItems = re.split(',', line)
+            insideLine = re.search('\{', line)
+            insideLineEnd = re.search('\}', line)
+            insideJob = False
+            for platformItem in platformItems:
+                if platformItem == insideLine:
+                    insideJob = True
+                while insideJob == True:
+                    print("\t\t\t",platformItem)
+                    if platformItem == insideLineEnd:
+                        insideJob == False
+                        continue
+                print("\t\t\t",platformItem)
+                
+    print("DK: ",line)
 
 def modCleanup(line):
     modCheckFirst = re.search(regex.modDropFirst, line)
