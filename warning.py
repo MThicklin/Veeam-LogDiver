@@ -1,22 +1,13 @@
 import os, re, regex
 
-def warning(logName, logContent, type):
-    ReGex = regex.regexWarn
+def warning(logName, logContent):
     itemCount = 0
-    if type == "info":
-        ReGex = regex.regexInfo
-        fileName = "Info Log Output - " + str(logName) + ".txt"
-        print("Outputting Info entries for ", fileName, "...")
-    elif type == "warn":
-        fileName = "Warn Log Output - " + str(logName) + ".txt"
-        print("Outputting Warning and Error entries for ", fileName, "...")
-    else:
-        fileName = "Warn Log Output - " + str(logName) + ".txt"
-        print("Defaulting to Warning and Error entries for ", fileName, "...")
+    fileName = "Warn Log Output - " + str(logName) + ".txt"
+    print("Outputting Warning and Error entries for ", logName, "...")
 
     with open(str(fileName), "w") as output:
         for index, line in enumerate(logContent):
-            x = re.search(ReGex, line)
+            x = re.search(regex.regexWarn, line)
             if x:
                 itemCount += 1
                 output.write("{}: {}".format(index + 1, x.string))
