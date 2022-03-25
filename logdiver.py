@@ -1,5 +1,6 @@
 import os, sys
 from warning import warning
+from vmc import vmcCrawl
 
 logName = ""
 logFile = []
@@ -14,7 +15,7 @@ def cleaner():
             filesCleaned += 1
     return print("All Clean! Files cleaned: ", filesCleaned)
 
-def vmcCrawl():
+def vmcLogCrawl():
     try:
         with open(os.path.join(os.getcwd(), "VMC.log")) as vmcLog:
             vmcCrawl(vmcLog)
@@ -24,6 +25,10 @@ def vmcCrawl():
 
 def logCrawler():
     for file in os.listdir(os.getcwd()):
+        fileName = "Warn Log Output - " + str(file) + ".txt"
+        if os.path.exists(fileName):
+            print('{} already exists. Skipping...'.format(fileName))
+            continue
         if file.endswith(".log") and file != "VMC.log":
             logFile.append(file)
     return logFile
@@ -32,7 +37,8 @@ def logWriter(logFile):
     for index, file in enumerate(logFile):
         with open(os.path.join(os.getcwd(), str(logFile[index])), "r") as log:
             logContent = log.readlines()
-            warning(file, logContent)
+            fileName = "Warn Log Output - " + str(file) + ".txt"
+            warning(fileName, logContent)
         log.close()
 
 if sys.argv[1] == "clean":
