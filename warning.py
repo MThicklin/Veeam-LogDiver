@@ -25,5 +25,6 @@ def warning(logName, logContent, type):
         output.write("Item Count: {}".format(itemCount))
         if itemCount == 0:
             output.close()
-            os.rename(str(fileName), "No Good - {}".format(str(logName)))
+            os.rename(str(fileName), "No Good - {}.txt".format(str(logName)))
+            print('No items of interest in {}'.format(str(logName)))
     output.close()
