@@ -22,3 +22,5 @@ regexAdvanced = re.compile('(Advanced:)\s')
 regexLStrip = re.compile('\[([0-9]{2}).([0-9]{2}).([0-9]{4})\s[0-9]{2}:[0-9]{2}:[0-9]{2}\]\s<[0-9]{2,4}>\s\w+\s*==\s\s')
 
 regexLogFileName = re.compile('(?<=\/)\w*(\.\d)*(\.log)')
+
+regexVMCSection = re.compile('(?:={24})([\w\s-]*)(?:={26})')

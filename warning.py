@@ -1,9 +1,12 @@
-import os, re, regex
+import os
+import re
+import regex
+
 
 def warning(logName, logContent):
     itemCount = 0
-    print("Outputting Warning and Error entries for ", logName, "...")        
-        
+    print("Outputting Warning and Error entries for ", logName, "...")
+
     with open(str(logName), "w") as output:
         for index, line in enumerate(logContent):
             x = re.search(regex.regexWarn, line)

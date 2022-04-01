@@ -1,13 +1,15 @@
-import re, regex
+import re
+import regex
+
 
 def vmcCrawl(vmcLog):
     vmcContent = vmcLog.readlines()
     print("Printing Module info...")
-    for index,line in enumerate(vmcContent):
+    for index, line in enumerate(vmcContent):
         srvName = re.search(regex.VBRMachineName, line)
         if srvName:
             print(line)
-        moduleLine = re.search(regex.VBRModule,line)
+        moduleLine = re.search(regex.VBRModule, line)
         module = re.split(regex.VBRModule, str(moduleLine))
         if len(module) > 1:
             for mod in module:
@@ -16,8 +18,8 @@ def vmcCrawl(vmcLog):
                     continue
                 else:
                     print("\tModule: ", mod)
-        titles = re.search('(?:={23})([\w\s-]*)(?:={26})',line)
-        title = re.split('[={24}]([\w\s-]*)[={26}]', str(titles))
+        titles = re.search(regex.regexVMCSection, line)
+        title = re.split(regex.regexVMCSection, str(titles))
         if len(title) > 1:
             for words in title:
                 modCheck = modCleanup(words)
@@ -29,17 +31,17 @@ def vmcCrawl(vmcLog):
         if hostLine:
             hostId = re.split(',', line)
             for host in hostId:
-                print("\t",host)
+                print("\t", host)
         proxyLine = re.search('ProxyID', line)
         if proxyLine:
-            proxyID = re.split(',',line)
+            proxyID = re.split(',', line)
             for proxy in proxyID:
-                print("\t\t",proxy)
+                print("\t\t", proxy)
         proxyTypes = re.search('Proxy types: ', line)
         if proxyTypes:
             proxyItems = re.split(',', line)
             for type in proxyItems:
-                print("\t\t",type)
+                print("\t\t", type)
         platformLine = re.search('PlatformId:', line)
         if platformLine:
             platformItems = re.split(',', line)
@@ -50,13 +52,14 @@ def vmcCrawl(vmcLog):
                 if platformItem == insideLine:
                     insideJob = True
                 while insideJob == True:
-                    print("\t\t\t",platformItem)
+                    print("\t\t\t", platformItem)
                     if platformItem == insideLineEnd:
                         insideJob == False
                         continue
-                print("\t\t\t",platformItem)
-                
-    print("DK: ",line)
+                print("\t\t\t", platformItem)
+
+    print("DK: ", line)
+
 
 def modCleanup(line):
     modCheckFirst = re.search(regex.modDropFirst, line)
