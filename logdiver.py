@@ -40,7 +40,7 @@ def stow(folderName):
     os.mkdir(destPath)
     for file in os.listdir(os.getcwd()):
         if file.endswith(".txt") or file.endswith(".log"):
-            shutil.move(srcPath + file, destPath + file)
+            shutil.move(srcPath +"\\"+file, destPath +"\\"+ file)
             filesMoved += 1
     print("{} files stowed away in {}".format(filesMoved, folderName))
 
