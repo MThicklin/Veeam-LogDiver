@@ -1,2 +1,2 @@
-run = "python logdiver.py clean"
+run = "python logdiver.py nuke"
 language = "python3"
