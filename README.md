@@ -1,14 +1,18 @@
 # Veeam LogDiver aka LogDiver
 A Log diver that pulls warning and error entries from VB&R logs.
 
+LogDiver isn't meant to replace troubleshooting but make it esier to locate the errors inside the logs.
+
 ## Using LogDiver
-To use LogDiver:
-  Ensure you have at least Python 3.9 installed.
-  Download the code and extract where you want.
-  Then copy your Veeam Logs into the folder.
-  Finally open a command prompt and type 'python logdiver.py crawl'
-  
-  Other functions are listed below.
+Basic LogDiver use:  
+-Ensure you have at least Python 3.9 installed.  
+-Download the code and extract where you want.  
+-Copy your Veeam Logs into the folder.  
+-Finally open a command prompt inside the log dive directory.
+-Type 'python logdiver.py crawl'
+-Logdiver will output a .txt file named after each of the logs found with the line numbers of the errors / warnings from the original log files.
+
+Other functions are listed below.  Simply start with 'python logdiver.py <funciton losted below' to run them.
 
 ## Functions of Log diver:
 
