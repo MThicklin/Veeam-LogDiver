@@ -9,7 +9,7 @@ def warning(logName, logContent):
 
     with open(str(logName), "w") as output:
         for index, line in enumerate(logContent):
-            x = re.search(regex.regexWarn, line)
+            x = re.search(regex.Warn, line)
             if x:
                 itemCount += 1
                 output.write("{}: {}".format(index + 1, x.string))

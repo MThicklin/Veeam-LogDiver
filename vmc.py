@@ -4,35 +4,31 @@
 import re
 import regex
 
-lineTest = [regex.VBRMachineName, regex.VBRModule, regex.VMCSection ]
+lineTest = [regex.VBRMachineName, regex.VBRModule, regex.VMCSection, regex.wipRegex ]
 def vmcCrawl(vmcLog):
     vmcContent = vmcLog.readlines()
     print("Printing Module info...")
     for index, line in enumerate(vmcContent):
-        lineConNum = 0
-        #srvName = re.search(regex.VBRMachineName, line)
-        #if srvName:
-            #print(line)
-            #continue
         for lineCon in lineTest:
-            lineConNum += 1
             lineCheck = re.search(lineCon, line)
-            #print("lineCheck: ", lineCon)
             lineSplit = re.split(lineCon, str(lineCheck))
-            #print("lineSplit: ", lineSplit)
             if lineCheck:
                 for mod in lineSplit:
                     modCheck = modCleanup(mod)
                     if modCheck == False:
                         continue
-                    if lineCon == regex.VBRMachineName:
-                        print("Machine Name: ", lineSplit[1])
-                    elif lineCon == regex.VBRModule:
-                        print("\tModule: ", lineSplit[0])
-                    elif lineCon == regex.VMCSection:
-                        print("Section: ", lineSplit[0])
-                    #else:
-                        #continue
+                    if lineCon == lineTest[0]:
+                        print("Machine Name: ")
+                    elif lineCon == lineTest[1]:
+                        print("\tModule: ")
+                    elif lineCon == lineTest[2]:
+                        print("Section: ")
+                    elif lineCon == lineTest[3]:
+                        print("Inside section: ")
+                    else:
+                        continue
+                    print(lineSplit[1])
+#Moved the print for linesplit outside of the IF statements.l
             else:
                 continue
 

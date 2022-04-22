@@ -1,3 +1,5 @@
+#Some information inside the logs are in XML.
+#This function is to make that information more readable.
 import xml.etree.ElementTree as ET
 
 def parseXML(xmlfile):
