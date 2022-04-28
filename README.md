@@ -32,8 +32,4 @@ stow4me
 A stow function that displays the folders available in the logdiver directory and ask user where the files should go.
 
 vmc  
-The VMC function is still under construction, It's goal will be to make the VMC.log more readable.  Future features include being able to run system requirement calculations and note differences between the infrastructure by day.
-
-## Little bit of back story
-I worked as a contractor for Veeam for a few months and made this program to help get to the errors in the logs faster.  
-Overall, I think the program is pretty good and I wanted to share that good with others who may want to get a look behind the scenes in the logs for Veeam.
+The VMC function is still under construction, It's goal will be to make the VMC.log more readable.
