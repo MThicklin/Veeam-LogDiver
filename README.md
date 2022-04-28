@@ -6,21 +6,21 @@ LogDiver isn't meant to replace troubleshooting but make it esier to locate the 
 ## Using LogDiver
 Basic LogDiver use:  
 -Ensure you have at least Python 3.9 installed.  
--Download the code and extract where you want.  
+-Download the .zip and extract where you want.  
 -Copy your Veeam Logs into the folder.  
--Finally open a command prompt inside the log dive directory.
+-Finally open a command prompt inside the LogDiver directory.
 -Type 'python logdiver.py crawl'  
 -Logdiver will output a .txt file named after each of the logs found with the line numbers of the errors / warnings from the original log files.
 
-Other functions are listed below.  You can run them with 'python logdiver.py <function losted below>'.
+Other functions are listed below.  You can run them with 'python logdiver.py <function listed below>'.
 
 ## Functions of Log diver:
 
 crawl  
-For ease of use, LogDiver is designed so logs can be copied into the LogDiver folder and it will crawl through the directory for logs.  After LogDiver crawls through the directory, it will output a text file with the errors / warnings and their line numbers so you can open the original log file and know where the entries are located.
+For ease of use, LogDiver is designed so multiple logs can be copied into the LogDiver folder and it will crawl through the directory for logs.  After LogDiver crawls through the directory, it will output text files named after the original log with the errors / warnings and the line numbers so you can open the original log file and know where the entries are located.
 
 clean  
-The clean function removes all the files log diver created.  Clean doesn't touch any other files other then the .txt logdiver makes.  If you accidentally clean your files too early, you still have th option to run crawl agian.
+The clean function removes all the files log diver created.  Clean doesn't touch any other files other then the .txt logdiver makes.  If you accidentally clean your files too early, you still have the option to run crawl agian.
 
 nuke  
 The nuke function will delete all .log and .txt files out of the logdiver folder.  This acts as a reset if you no longer need any of the files.  This function has a safety where the user must YES (All CAPS) to activate.
@@ -32,4 +32,4 @@ stow4me
 A stow function that displays the folders available in the logdiver directory and ask user where the files should go.
 
 vmc  
-The VMC function is still under construction, It's goal will be to make the VMC.log more readable.
+The VMC function is still under construction, It's goal is to make the VMC.log more readable.

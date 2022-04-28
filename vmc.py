@@ -2,7 +2,6 @@ import re
 import regex
 
 lineTest = [regex.VBRMachineName, regex.VBRModule, regex.VMCSection, regex.VMCinnerSection]
-sectionTest = []
 
 def vmcCrawl(vmcLog):
     vmcContent = vmcLog.readlines()
@@ -17,21 +16,14 @@ def vmcCrawl(vmcLog):
                     if modCheck == False:
                         continue
                     if lineCon == lineTest[0]:
-                        print("Machine Name: ", lineSplit[1])
+                        lineSplitter(line)
                     elif lineCon == lineTest[1]:
                         print("\tModule: ", lineSplit[1])
                     elif lineCon == lineTest[2]:
                         print("Section: ", lineSplit[1])
                     elif lineCon == lineTest[3]:
-                        innerSectionSplit = re.split(',', line)
                         print("Inside section: ")
-                        for item in innerSectionSplit:
-                            dateCheck = re.match (regex.lStrip, item)
-                            if dateCheck:
-                                strippedItem = re.sub(regex.lStrip,'',item)
-                                print(strippedItem)
-                                continue
-                            print("\t",item)
+                        lineSplitter(line)                        
             else:
                 continue
 
@@ -44,3 +36,15 @@ def modCleanup(line):
         return False
     else:
         return True
+
+def lineSplitter(line):
+    innerSectionList = []
+    innerSectionSplit = re.split(',', line)
+    for item in innerSectionSplit:
+        dateCheck = re.match (regex.lStrip, item)
+        if dateCheck:
+            strippedItem = re.sub(regex.lStrip,'',item)
+            print(strippedItem)
+            continue
+        print(item)
+    return innerSectionList
