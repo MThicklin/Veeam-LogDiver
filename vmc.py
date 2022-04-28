@@ -1,10 +1,9 @@
-###
-#Test file to see if we can iterate through a list of regexs instead call re.search and re.split over and over.
-###
 import re
 import regex
 
-lineTest = [regex.VBRMachineName, regex.VBRModule, regex.VMCSection, regex.wipRegex ]
+lineTest = [regex.VBRMachineName, regex.VBRModule, regex.VMCSection, regex.VMCinnerSection]
+sectionTest = []
+
 def vmcCrawl(vmcLog):
     vmcContent = vmcLog.readlines()
     print("Printing Module info...")
@@ -18,17 +17,21 @@ def vmcCrawl(vmcLog):
                     if modCheck == False:
                         continue
                     if lineCon == lineTest[0]:
-                        print("Machine Name: ")
+                        print("Machine Name: ", lineSplit[1])
                     elif lineCon == lineTest[1]:
-                        print("\tModule: ")
+                        print("\tModule: ", lineSplit[1])
                     elif lineCon == lineTest[2]:
-                        print("Section: ")
+                        print("Section: ", lineSplit[1])
                     elif lineCon == lineTest[3]:
+                        innerSectionSplit = re.split(',', line)
                         print("Inside section: ")
-                    else:
-                        continue
-                    print(lineSplit[1])
-#Moved the print for linesplit outside of the IF statements.l
+                        for item in innerSectionSplit:
+                            dateCheck = re.match (regex.lStrip, item)
+                            if dateCheck:
+                                strippedItem = re.sub(regex.lStrip,'',item)
+                                print(strippedItem)
+                                continue
+                            print("\t",item)
             else:
                 continue
 
