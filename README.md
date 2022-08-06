@@ -8,7 +8,7 @@ Basic LogDiver use:
 -Ensure you have at least Python 3.9 installed.  
 -Download the .zip and extract where you want.  
 -Copy your Veeam Logs into the folder.  
--Finally open a command prompt inside the LogDiver directory.
+-Open a command prompt inside the LogDiver directory.
 -Type 'python logdiver.py crawl'  
 -Logdiver will output a .txt file named after each of the logs found with the line numbers of the errors / warnings from the original log files.
 
