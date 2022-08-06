@@ -23,7 +23,7 @@ clean
 The clean function removes all the files log diver created.  Clean doesn't touch any other files other then the .txt logdiver makes.  If you accidentally clean your files too early, you still have the option to run crawl agian.
 
 nuke  
-The nuke function will delete all .log and .txt files out of the logdiver folder.  This acts as a reset if you no longer need any of the files.  This function has a safety where the user must YES (All CAPS) to activate.
+The nuke function will delete all .log and .txt files out of the logdiver folder.  This acts as a reset if you no longer need any of the files.  This function has a safety where the user must type YES (All CAPS) to activate.
 
 stow  
 The stow function is set up to move both .log and .txt files into a folder you name.  This is so you don't have to recrawl over logs if you want to revisit files from a previous sesison of logdiver.
