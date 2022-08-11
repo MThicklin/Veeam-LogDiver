@@ -10,6 +10,7 @@ lStrip = re.compile('(\[[0-9]{2}.+[0-9]{4}\s([0-9]{2}:)+[0-9]{2}]\s<[0-9]{2,4}>\
 
 modDropFirst = re.compile('<re.Match object')
 modDropSecond = re.compile('\'>')
+modDropThird = re.compile('\[VmcStats\]')
 
 Warn = re.compile('(Warning|Error|WARN|ERR|isCorrupted=True|>>|absent)+')
 CliUpd = re.compile('(Warning)\s+(\[ClientUpdate\])')

@@ -30,9 +30,12 @@ def vmcCrawl(vmcLog):
 def modCleanup(line):
     modCheckFirst = re.search(regex.modDropFirst, line)
     modCheckSecond = re.search(regex.modDropSecond, line)
+    modCheckThird = re.search(regex.modDropThird, line)
     if modCheckFirst:
         return False
     if modCheckSecond:
+        return False
+    if modCheckThird:
         return False
     else:
         return True
