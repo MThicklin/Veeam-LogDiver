@@ -1,5 +1,5 @@
 # Veeam LogDiver aka LogDiver
-A Log diver that pulls warning and error entries from VB&R logs.
+A script to pull warning and error entries from VB&R logs.
 
 LogDiver isn't meant to replace troubleshooting but make it esier to locate the errors inside the logs.
 
